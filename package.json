@@ -1,0 +1,38 @@
+{
+  "name": "esper-yukko",
+  "version": "1.0.0",
+  "description": "サイキック大ユニゾン",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test":
+      "/usr/local/bin/tsc --target ES2015 && /usr/local/bin/ava build/test/**/*.js --verbose"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "keywords": ["react", "redux", "form", "immutable"],
+  "author": "Yamaguchi Eikichi",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "3.7.2",
+    "react": "16.2.0",
+    "material-ui": "1.0.0-beta.24",
+    "immutable": "4.0.0-rc.9",
+    "prop-types": "15.6.0",
+    "react-redux": "5.0.6"
+  },
+  "devDependencies": {
+    "ava": "0.24.0",
+    "prettier": "1.9.2",
+    "prettier-tslint": "0.3.0",
+    "redux-ava": "2.2.0",
+    "tslint": "5.8.0",
+    "enzyme": "3.2.0",
+    "tslint-config-prettier": "1.6.0",
+    "tslint-eslint-rules": "4.1.1",
+    "tslint-plugin-prettier": "1.3.0"
+  }
+}

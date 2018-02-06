@@ -1,0 +1,36 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "align": [false, "parameters", "statements"],
+    "no-console": false,
+    "jsx-wrap-multiline": false,
+    "jsx-no-multiline-js": false,
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "no-var-requires": false,
+    "no-string-literal": false,
+    "no-duplicate-super": false,
+    "comment-format": false,
+    "no-bitwise": false,
+    "no-namespace": false,
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "max-classes-per-file": [true, 4],
+    "max-line-length": false,
+    "no-empty-interface": false,
+    "ordered-imports": false,
+    "object-literal-key-quotes": false,
+    "one-variable-per-declaration": false,
+    "prettier": [true, { "singleQuote": true }]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "isolatedModules": false,
+      "allowJs": true,
+      "jsx": "react",
+      "lib":["es7", "dom"],
+      "sourceMap": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "allowUnusedLabels": false,
+
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      "noImplicitUseStrict": false,
+      "removeComments": true,
+      "importHelpers": true,
+      "noLib": false,
+      "outDir": "build/",
+      "noEmitHelpers": true,
+      "preserveConstEnums": true,
+      "suppressImplicitAnyIndexErrors": true,
+
+      "typeRoots": [
+        "node_modules/@types",
+        "node_modules"
+     ],
+     "types": [
+      "node", "lodash", "react","immutable",
+      "react","react-dom", "react-redux",
+      "react-router-redux","redux",
+      "material-ui-icons"
+    ]
+  },
+  "include": [
+    "src",
+    "node_modules/**/*.d.ts",
+    "node_modules/@types/**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "public"
+  ]
+}
